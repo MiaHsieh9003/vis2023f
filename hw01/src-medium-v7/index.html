@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0070)https://tjhsieh.github.io/c/vis/vis2023f/hw01/src-medium-v3/index.html -->
+
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -191,7 +192,7 @@
             .attr("height", function(d, i) { return (i + 1) * 60; });
 
 
-    d3.text("../csv/data.csv").then(function (data) {
+    d3.text("./data.csv").then(function (data) {
 
         //var parsedCSV = d3.csv.parseRows(data);
         parsedCSV = d3.csvParseRows(data);
@@ -254,4 +255,6 @@
     </script>
 
 
-</body></html>
+</body>
+
+</html>
