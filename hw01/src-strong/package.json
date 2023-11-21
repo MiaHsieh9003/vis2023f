@@ -1,0 +1,14 @@
+{
+  "name": "904bfd8a15a2c842",
+  "main": "904bfd8a15a2c842@104.js",
+  "version": "104.0.0",
+  "homepage": "https://observablehq.com/d/904bfd8a15a2c842",
+  "author": {
+    "name": "Mia's Workspace",
+    "url": "https://observablehq.com/@mia3-ws"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
